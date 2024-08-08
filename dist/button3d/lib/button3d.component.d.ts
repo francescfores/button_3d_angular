@@ -1,0 +1,37 @@
+import { ElementRef, OnInit, Renderer2, SimpleChanges } from '@angular/core';
+import * as i0 from "@angular/core";
+export declare class Button3dComponent implements OnInit {
+    private renderer;
+    private elementRef;
+    button: any;
+    title: string;
+    title_loading: string;
+    title_loading_success: string;
+    height: string;
+    width: string;
+    raise: number;
+    rounded: string;
+    border: string;
+    border_style: string;
+    bg_front_color: string;
+    bg_shadow_color: string;
+    bg_back_color: string;
+    font_color: string;
+    font_body_weight: string;
+    font_size: string;
+    loading_type: string;
+    loading: boolean;
+    loading_time: number;
+    type: string;
+    ripple: boolean;
+    btn: ElementRef<HTMLButtonElement>;
+    constructor(renderer: Renderer2, elementRef: ElementRef);
+    ngOnChanges(changes: SimpleChanges): void;
+    loadWaves(): void;
+    ngOnInit(): void;
+    ngAfterViewInit(): void;
+    handleButtonClick(event: MouseEvent): void;
+    private removeRippleEffect;
+    static ɵfac: i0.ɵɵFactoryDeclaration<Button3dComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<Button3dComponent, "button3d", never, { "title": { "alias": "title"; "required": false; }; "title_loading": { "alias": "title_loading"; "required": false; }; "title_loading_success": { "alias": "title_loading_success"; "required": false; }; "height": { "alias": "height"; "required": false; }; "width": { "alias": "width"; "required": false; }; "raise": { "alias": "raise"; "required": false; }; "rounded": { "alias": "rounded"; "required": false; }; "border": { "alias": "border"; "required": false; }; "border_style": { "alias": "border_style"; "required": false; }; "bg_front_color": { "alias": "bg_front_color"; "required": false; }; "bg_shadow_color": { "alias": "bg_shadow_color"; "required": false; }; "bg_back_color": { "alias": "bg_back_color"; "required": false; }; "font_color": { "alias": "font_color"; "required": false; }; "font_body_weight": { "alias": "font_body_weight"; "required": false; }; "font_size": { "alias": "font_size"; "required": false; }; "loading_type": { "alias": "loading_type"; "required": false; }; "loading": { "alias": "loading"; "required": false; }; "loading_time": { "alias": "loading_time"; "required": false; }; "type": { "alias": "type"; "required": false; }; "ripple": { "alias": "ripple"; "required": false; }; }, {}, never, ["*"], true, never>;
+}
