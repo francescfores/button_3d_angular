@@ -1,6 +1,6 @@
 {
   "name": "button3d",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
@@ -21,5 +21,17 @@
       "esm": "./esm2022/button3d.mjs",
       "default": "./fesm2022/button3d.mjs"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francescfores/button_3d_angular"
+  },
+  "homepage": "https://mi-sitio-web.com",
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT"
 }
