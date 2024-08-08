@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+.h-screen{
+  height:90vh;
+}
+.mt-auto{
+  margin-top:auto;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex{
+  display : flex;
+}
+.opacity-0{
+  opacity:0;
+}
+.hidden{
+  display:none;
+}
+.flex{
+  display:flex;
+}
