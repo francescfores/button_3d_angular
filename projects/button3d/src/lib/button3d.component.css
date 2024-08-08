@@ -13,7 +13,7 @@ button {
   --height: 100px;
   --width:100px;
   --raise: 0px;
-  --rounded: var(--rounded-sm);
+  --rounded: 2px;
   --rotate: 0;
   --rotate_invers: 0;/* 1 * - 1*/
   --border:4px;
