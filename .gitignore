@@ -42,3 +42,5 @@ testem.log
 Thumbs.db
 /projects/button3d/node_modules
 .angular/*
+my-app
+my-app/*
