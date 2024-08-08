@@ -8,10 +8,9 @@ import {
   SimpleChanges,
   ViewChild,
 
-  ViewChildren
+  ViewChildren, ViewEncapsulation
 } from '@angular/core';
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import {BehaviorSubject, distinctUntilChanged, Subscription} from "rxjs";
 import {NgClass, NgIf} from "@angular/common";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
@@ -29,7 +28,9 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
   styleUrls: [
     './button3d.component.css',
     './button3d_theme_default.component.css',
-  ]
+  ],
+  encapsulation: ViewEncapsulation.None  // Permite que los estilos se apliquen globalmente
+
 })
 export class Button3dComponent implements OnInit{
   button:any;

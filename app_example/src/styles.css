@@ -21,10 +21,10 @@ html{
     --font_color: #7f4997;
   }
   .btn_danger{
-    --border_style:solid #8fb863 var(--border);
-    --bg_front_color: #d5266d;
+    --border_style:solid #70af2e var(--border);
+    --bg_front_color: #ef156f;
     --bg_shadow_color: #4B4B4B84;
-    --bg_back_color: #47602b;
+    --bg_back_color: #afca92;
     --font_color: #fff;
   }
   .btn_disabled{
