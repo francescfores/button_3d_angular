@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Button3dComponent } from 'button3d';  // Asegúrate de importar el módulo de la biblioteca
+// import { Button3dComponent } from 'button3d';  // Asegúrate de importar el módulo de la biblioteca
+import { Button3dComponent } from '../../../projects/button3d/src/lib/button3d.component';  // Asegúrate de importar el módulo de la biblioteca
 
 @Component({
   selector: 'app-root',

@@ -227,8 +227,11 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <br><br>
       <button3d (click)="loading_call()"
                 [rounded]="'3px'"
+                [border]="'2px'"
+                [border_style]="'solid #8fb863 2px'"
                 [loading]="loading"
                 [loading_type]="'slideInLeft'" [title]="'Click'"
                 [type]="'btn_danger'"
@@ -236,6 +239,7 @@
                 [raise]="6">
 
       </button3d>
+      <br><br>
       <button3d (click)="loading_call()"
                 [rounded]="'3px'"
                 [loading]="loading"
@@ -246,6 +250,7 @@
 
       </button3d>
       <br><br>
+
       <button3d (click)="loading_call()"
                 [loading]="loading"
                 [loading_type]="'waves'" [title]="'Click'"
